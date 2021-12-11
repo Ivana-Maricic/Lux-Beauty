@@ -3,7 +3,7 @@
 var ProductsEyes = [
     {
         "img":"eyes_01.jpg",
-        "title":"EYESHADOW PALLETE",
+        "title":"EYESHADOW",
         "price":"$18.25",
         "desc":"A well-edited palette featuring a colour wave of amber hues.",
         "reviews":"Reviews (12)",
@@ -58,7 +58,7 @@ var ProductsLips = [
 var ProductsFace = [
     {
         "img":"face_01.jpg",
-        "title":"MINERALIZE SKINFINISH",
+        "title":"MINERALIZE",
         "price":"$16.75",
         "desc":"A luxurious powder with Multi-Mineral Complex that adds highlights to the face and body.",
         "reviews":"Reviews (24)",
