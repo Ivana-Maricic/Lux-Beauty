@@ -880,7 +880,7 @@ header .navbar {
 
 
 /* Responsive Style */
-@media (max-width: 768px) {
+@media (max-width: 770px) {
 	.banner .text-content {
 		width: 90%;
 		margin-left: 5%;
@@ -1003,60 +1003,4 @@ header .navbar {
 		right: 0;
 		bottom: 0;
 	}
-}
-
-
-
-.paginationjs-pages {
-	margin-top: 30px;
-	text-align: center;
-}
-
-.paginationjs-pages li {
-	display: inline-block;
-	margin: 0px 2px;
-}
-
-.paginationjs-pages li a {
-	width: 44px;
-	height: 44px;
-	display: inline-block;
-	line-height: 42px;
-	border: 1px solid #eee;
-	font-size: 15px;
-	font-weight: 700;
-	color: #121212;
-	transition: all .3s;
-}
-
-.paginationjs-pages li a:hover,
-.paginationjs-pages li.active a {
-	background-color: #f33f3f;
-	border-color: #f33f3f;
-	color: #fff;
-}
-/* Footer */
-
-footer {
-	text-align: center;
-	margin-top: 25px;;
-	border-top:1px solid #eee;
-}
-
-footer .inner-content {
-	
-	padding: 40px 0px;
-	text-transform: uppercase;
-}
-footer .inner-content p a {
-	color: #f33f3f;
-	margin-left: 3px;
-}
-@media (max-width: 768px){
-	footer .inner-content {
-		padding: 30px 0px 10px 0px;}
-}
-.fab,.fas,.far{
-	color:#f33f3f;
-	font-size:20px;
 }
