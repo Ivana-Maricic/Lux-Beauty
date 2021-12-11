@@ -1,0 +1,117 @@
+/* Pagination */
+
+.paginationjs-pages {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.paginationjs-pages li {
+	display: inline-block;
+	margin: 0px 2px;
+}
+
+.paginationjs-pages li a {
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	line-height: 42px;
+	border: 1px solid #eee;
+	font-size: 15px;
+	font-weight: 700;
+	color: #121212;
+	transition: all .3s;
+}
+
+.paginationjs-pages li a:hover,
+.paginationjs-pages li.active a {
+	background-color: #f33f3f;
+	border-color: #f33f3f;
+	color: #fff;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	margin-top: 25px;;
+	border-top:1px solid #eee;
+}
+
+footer .inner-content {
+	padding: 40px 0px;
+	text-transform: uppercase;
+}
+footer .inner-content p a {
+	color: #f33f3f;
+	margin-left: 3px;
+}
+.fab,.fas,.far{
+	color:#f33f3f;
+}
+
+
+/* Products */
+.all {
+	padding-bottom: 30px;
+}
+.product-item{
+    height: 100%;
+}
+
+ /* Popup box */
+ #form-popup{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+#form-popup .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.popupPosition {
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 25px 5%;
+}
+.popup-close {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.popup-close:hover {
+    background-color: #ccc;
+}
+/* Form margin */
+.im-margin{
+	margin: 0px !important;
+}
+.margin-im{
+	margin: 0px 5px 0px 0px !important;
+}
