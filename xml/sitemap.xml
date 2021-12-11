@@ -1,0 +1,26 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+    <loc>https://ivana-maricic.github.io/Lux-Beauty/index.html</loc>
+    <lastmod>2021-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+    </url>
+    <url>
+    <loc>https://ivana-maricic.github.io/Lux-Beauty/products.html</loc>
+    <lastmod>2021-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    </url>
+    <url>
+    <loc>https://ivana-maricic.github.io/Lux-Beauty/about.html</loc>
+    <lastmod>2021-12-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    </url>
+    <url>
+    <loc>https://ivana-maricic.github.io/Lux-Beauty/contact.html</loc>
+    <lastmod>2021-12-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    </url>
+</urlset>

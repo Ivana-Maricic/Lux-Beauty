@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Lux Beauty HomePage</title>
+  <link>https://ivana-maricic.github.io/Lux-Beauty/index.html</link>
+  <description>NEW SALE!</description>
+  <item>
+    <title>Our products</title>
+    <link>https://ivana-maricic.github.io/Lux-Beauty/products.html</link>
+    <description>We updated our store!</description>
+  </item>
+</channel>
+
+</rss>
