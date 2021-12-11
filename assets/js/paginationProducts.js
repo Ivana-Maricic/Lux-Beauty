@@ -58,7 +58,7 @@ var ProductsLips = [
 var ProductsFace = [
     {
         "img":"face_01.jpg",
-        "title":"MINERALIZE",
+        "title":"HIGHLIGHTER",
         "price":"$16.75",
         "desc":"A luxurious powder with Multi-Mineral Complex that adds highlights to the face and body.",
         "reviews":"Reviews (24)",
