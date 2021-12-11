@@ -48,7 +48,7 @@ var content = `<div class="container-fluid">
         <a href="../../xml/rss.xml" target="_blank">
             <span><i class="fas fa-rss mr-3"></i></span>
         </a>
-        <a href="" target="_blank">
+        <a href="documentation.pdf" target="_blank">
             <span><i class="far fa-file"></i></span>
         </a>
           </div>
