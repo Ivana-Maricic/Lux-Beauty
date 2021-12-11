@@ -106,13 +106,13 @@ var content = `<div class="container-fluid">
         <a href="https://twitter.com/" target="_blank">
             <span><i class="fab fa-twitter mr-3"></i></span>
         </a>
-        <a href="../../xml/sitemap.xml" target="_blank">
+        <a href="xml/sitemap.xml" target="_blank">
             <span><i class="fas fa-sitemap mr-3"></i></span>
         </a>
-        <a href="../../xml/rss.xml" target="_blank">
+        <a href="xml/rss.xml" target="_blank">
             <span><i class="fas fa-rss mr-3"></i></span>
         </a>
-        <a href="../../documentation.pdf" target="_blank">
+        <a href="documentation.pdf" target="_blank">
             <span><i class="far fa-file"></i></span>
         </a>
           </div>
