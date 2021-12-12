@@ -108,10 +108,14 @@ footer .inner-content p a {
 .popup-close:hover {
     background-color: #ccc;
 }
-/* Form margin */
+/* Form */
 .im-margin{
 	margin: 0px !important;
 }
 .margin-im{
 	margin: 0px 5px 0px 0px !important;
+}
+
+#nameerror,#emailerror,#subjecterror,#messageerror,#gendererror{
+	font-size: 13px;
 }
