@@ -119,3 +119,11 @@ footer .inner-content p a {
 #nameerror,#emailerror,#subjecterror,#messageerror,#gendererror{
 	font-size: 13px;
 }
+
+.error {
+    margin-bottom: 20px;
+}
+
+.im-margin-bottom-5 {
+    margin-bottom: 5px !important;
+}
