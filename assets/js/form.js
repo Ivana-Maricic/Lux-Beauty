@@ -20,32 +20,32 @@ var messageCheck = /.{3,250}/;
 if(nameCheck.test(name)){
     document.getElementById('nameerror').innerHTML = " ";
 }else{
-    document.getElementById('nameerror').innerHTML = "** Name is invalid ";
+    document.getElementById('nameerror').innerHTML = "** Name is required and can contain only letters.";
     successfullValidation = false;
 }
 if(emailCheck.test(email)){
     document.getElementById('emailerror').innerHTML = " ";
 }else{
-    document.getElementById('emailerror').innerHTML = "** Email is invalid ";
+    document.getElementById('emailerror').innerHTML = "** Email is required and must be in a correct email format.";
     successfullValidation = false;
 }
 if(subjectCheck.test(subject)){
     document.getElementById('subjecterror').innerHTML = " ";
 }else{
-    document.getElementById('subjecterror').innerHTML = "** Subject is invalid ";
+    document.getElementById('subjecterror').innerHTML = "**  Subject is required and can contain max 50 characters.";
     successfullValidation = false;
 
 }
 if(messageCheck.test(message)){
     document.getElementById('messageerror').innerHTML = " ";
 }else{
-    document.getElementById('messageerror').innerHTML = "** Message is invalid ";
+    document.getElementById('messageerror').innerHTML = "** Message is required and can contain max 250 characters.";
     successfullValidation = false;
 
 }
 if ( ( gender[0].checked == false ) && ( gender[1].checked == false ) && ( gender[2].checked == false ) )
 {
-     document.getElementById('gendererror').innerHTML = "** Choose one option ";
+     document.getElementById('gendererror').innerHTML = "** Choose at least one option ";
      successfullValidation = false;
 }
 else{
