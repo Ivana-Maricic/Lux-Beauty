@@ -87,18 +87,22 @@
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                   <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Name" />
-                    <span id="nameerror" class="text-danger font-weight-bold"></span>
+                    <input name="name" type="text" class="form-control im-margin-bottom-5" id="name" placeholder="Name" />
+                    <div class="error">
+                      <span id="nameerror" class="text-danger font-weight-bold"></span>
+                    </div>
                   </fieldset>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12">
                   <fieldset>
-                    <input name="email" type="email" class="form-control" id="email" placeholder="E-Mail Address" />
-                    <span id="emailerror" class="text-danger font-weight-bold"></span>
+                    <input name="email" type="email" class="form-control im-margin-bottom-5" id="email" placeholder="E-Mail Address" />
+                    <div class="error">
+                      <span id="emailerror" class="text-danger font-weight-bold"></span>
+                    </div>
                   </fieldset>
                 </div>
-                <div class="col-lg-12 mb-3">
-                  <p class="mb-2 font-weight-bold">Gender:</p>
+                <div class="col-lg-12">
+                  <p class="mb-2 font-weight-bold im-margin-bottom-5">Gender:</p>
                   <div class="form-check form-check-inline">
                     <input class="form-check-input margin-im mr-1" type="radio" name="gender" value="M"/>
                     <label class="form-check-label margin-im" for="exampleRadios1">
@@ -117,18 +121,24 @@
                        Other
                       </label>
                   </div>
-                  <span id="gendererror" class="text-danger font-weight-bold"></span>
+                  <div class="error">
+                    <span id="gendererror" class="text-danger font-weight-bold"></span>
+                  </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12">
                   <fieldset>
-                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject"/>
-                    <span id="subjecterror" class="text-danger font-weight-bold"></span>
+                    <input name="subject" type="text" class="form-control im-margin-bottom-5" id="subject" placeholder="Subject"/>
+                    <div class="error">
+                      <span id="subjecterror" class="text-danger font-weight-bold"></span>
+                    </div>
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" ></textarea>
-                    <span id="messageerror" class="text-danger font-weight-bold"></span>
+                    <textarea name="message" rows="6" class="form-control im-margin-bottom-5" id="message" placeholder="Your Message" ></textarea>
+                    <div class="error">
+                      <span id="messageerror" class="text-danger font-weight-bold"></span>
+                    </div>
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
