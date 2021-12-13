@@ -12,15 +12,13 @@ let navList = `<ul class="navbar-nav ml-auto">`;
     navList +=`</ul>`;
 navBar.innerHTML = navList;
 
-
-$('ul.navbar-nav > li').click(function (e) {
-                $('ul.navbar-nav > li').removeClass('active');
-                $(this).addClass('active');
-})
-
+// Dodavanje 'active' klase stavki menija
 $(function(){
+    $('ul.navbar-nav > li').removeClass('active');
+    var $homePage = window.location.href.substring(window.location.href.lastIndexOf("/") + 1) == '';
+
     $('li.nav-item > a').each(function(){
-        if ($(this).prop('href') == window.location.href) {
+        if ($(this).prop('href') == window.location.href || ($(this).attr('href') == 'index.html' && $homePage)) {
             $(this).addClass('active');
         }
     });
